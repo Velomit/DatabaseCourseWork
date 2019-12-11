@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #2e3b4f; -fx-border-color: silver;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pack.Controllers.AuthController">
+   <children>
+      <Label layoutX="148.0" layoutY="26.0" prefHeight="37.0" prefWidth="205.0" text="Авторизация" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="33.0" />
+         </font>
+      </Label>
+      <TextField fx:id="login_field" layoutX="144.0" layoutY="115.0" prefHeight="25.0" prefWidth="213.0" promptText="Логин" text="">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="signIn" disable="true" layoutX="195.0" layoutY="231.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" text="Вход">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="InvalidAuth" layoutX="53.0" layoutY="73.0" text="Логин или пароль введены некорректно!" textFill="RED" visible="false">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password_field" layoutX="144.0" layoutY="165.0" prefHeight="31.0" prefWidth="213.0" promptText="Пароль" text="">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>

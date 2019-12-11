@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="450.0" style="-fx-background-color: #2e3b4f;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pack.Controllers.CallsSubController">
+   <children>
+      <TableView fx:id="table" layoutX="14.0" layoutY="14.0" prefHeight="572.0" prefWidth="455.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="Ваши звонки">
+               <columns>
+                  <TableColumn fx:id="date_col" prefWidth="78.0" text="Дата" />
+                  <TableColumn fx:id="lenght_col" prefWidth="125.0" text="Продолжительость" />
+                  <TableColumn fx:id="dir_col" prefWidth="89.0" text="Направление" />
+                  <TableColumn fx:id="dir_cost_col" prefWidth="162.0" text="Стоимость направления" />
+               </columns>
+            </TableColumn>
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
