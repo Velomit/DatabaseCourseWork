@@ -1,5 +1,6 @@
 package pack;
 
+import pack.Models.Tariff;
 import pack.Models.*;
 
 import java.sql.*;

@@ -14,7 +14,7 @@
             <Font name="Comic Sans MS" size="33.0" />
          </font>
       </Label>
-      <TextField fx:id="login_field" layoutX="144.0" layoutY="115.0" prefHeight="25.0" prefWidth="213.0" promptText="Логин" text="">
+      <TextField fx:id="login_field" layoutX="144.0" layoutY="115.0" prefHeight="25.0" prefWidth="213.0" promptText="Логин">
          <font>
             <Font size="15.0" />
          </font>
@@ -29,7 +29,7 @@
             <Font name="Comic Sans MS" size="20.0" />
          </font>
       </Label>
-      <PasswordField fx:id="password_field" layoutX="144.0" layoutY="165.0" prefHeight="31.0" prefWidth="213.0" promptText="Пароль" text="">
+      <PasswordField fx:id="password_field" layoutX="144.0" layoutY="165.0" prefHeight="31.0" prefWidth="213.0" promptText="Пароль">
          <font>
             <Font size="15.0" />
          </font>
